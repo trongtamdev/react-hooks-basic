@@ -84,10 +84,8 @@ function App() {
   function handleFiltersChange(newFilters){
     console.log('New Filters: ', newFilters)
     setFilters({
-      ...filters,
-      _page: 1,
-      title_like: newFilters.searchTerm,
-    });
+      
+    })
   }
 
   return (

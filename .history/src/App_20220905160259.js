@@ -86,8 +86,8 @@ function App() {
     setFilters({
       ...filters,
       _page: 1,
-      title_like: newFilters.searchTerm,
-    });
+      
+    })
   }
 
   return (

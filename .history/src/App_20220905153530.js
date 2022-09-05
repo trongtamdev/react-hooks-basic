@@ -81,14 +81,7 @@ function App() {
     setTodoList(newTodoList);
   }
 
-  function handleFiltersChange(newFilters){
-    console.log('New Filters: ', newFilters)
-    setFilters({
-      ...filters,
-      _page: 1,
-      title_like: newFilters.searchTerm,
-    });
-  }
+  function handleFiltersChange(newFilters)
 
   return (
     <div className="App">
@@ -98,7 +91,7 @@ function App() {
       {/* <TodoForm onSubmit={handleTodoFormSubmit}/> */}
       {/* <TodoList todos={todoList} onTodoClick={handleTodoClick}/> */}
 
-      <PostFiltersForm onSubmit={handleFiltersChange}/>
+      <PostFiltersForm onSubmit={}/>
       <PostList posts={postList} />
       <Pagination 
         pagination={pagination}
