@@ -97,7 +97,7 @@ function App() {
     <div className="App">
       <h1>React Hooks - Clock</h1>
 
-      {showClock && <Clock/>}
+      { <Clock/>}
       <button onClick={()=> setShowClock(false)}>Hide Clock</button>
       {/* <TodoForm onSubmit={handleTodoFormSubmit}/> */}
       {/* <TodoList todos={todoList} onTodoClick={handleTodoClick}/> */}

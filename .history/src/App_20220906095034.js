@@ -91,14 +91,11 @@ function App() {
     });
   }
 
-  const [showClock, setShowClock] = useState(true);
-
   return (
     <div className="App">
       <h1>React Hooks - Clock</h1>
 
-      {showClock && <Clock/>}
-      <button onClick={()=> setShowClock(false)}>Hide Clock</button>
+      <Clock
       {/* <TodoForm onSubmit={handleTodoFormSubmit}/> */}
       {/* <TodoList todos={todoList} onTodoClick={handleTodoClick}/> */}
 
